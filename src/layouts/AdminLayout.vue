@@ -5,7 +5,6 @@
     <div class="flex">
       <Sidebar />
       
-      <!-- Contenido principal -->
       <main class="flex-1 p-6">
         <router-view />
       </main>
