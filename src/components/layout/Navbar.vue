@@ -15,5 +15,5 @@
 </template>
 
 <script setup lang="ts">
-import UserMenu from '@/components/layout/Usermenu.vue'
+import UserMenu from '@/components/layout/UserMenu.vue'
 </script>

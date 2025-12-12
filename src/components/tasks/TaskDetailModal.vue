@@ -51,7 +51,7 @@ const formattedDate = computed(() => {
 })
 
 const canStartTask = computed(() => {
-  return props.task?.status === TaskStatus.PENDING
+  return props.task?.status === TaskStatus.TO_CLEAN || props.task?.status === TaskStatus.TO_CLEAN_URGENT
 })
 
 const canCompleteTask = computed(() => {
